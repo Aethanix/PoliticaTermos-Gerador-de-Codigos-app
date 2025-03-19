@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Baixar o App</title>
+</head>
+<body>
+
+    <h2>Baixe o App de Recompensas</h2>
+
+    <p>Seu código de convite será salvo automaticamente.</p>
+
+    <!-- Botão para baixar o app -->
+    <a id="downloadBtn" href="meuapp.apk" download>
+        <button>Baixar o App</button>
+    </a>
+
+    <script>
+        // Captura o código da URL
+        const urlParams = new URLSearchParams(window.location.search);
+        const codigoConvite = urlParams.get('codigo');
+
+        if (codigoConvite) {
+            // Salva o código no Local Storage do navegador
+            localStorage.setItem('codigoConvite', codigoConvite);
+        }
+
+        // Quando a WebView do app abrir, envia o código automaticamente
+        window.onload = function() {
+            let codigoSalvo = localStorage.getItem('codigoConvite');
+            if (codigoSalvo) {
+                // Envia o código para o app via WebView
+                if (window.AndroidInterface) {
+                    window.AndroidInterface.receberCodigo(codigoSalvo);
+                }
+            }
+        };
+    </script>
+
+</body>
+</html>
