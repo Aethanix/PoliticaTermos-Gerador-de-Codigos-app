@@ -1,13 +1,13 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="" tvg-name="PREMIERE 1 HD" tvg-logo="https://lo1.in/BR/prme.png" group-title="PREMIERE",PREMIEREb1 HD
+#EXTINF:-1 tvg-id="" tvg-name="PREMIERE 1 HD" tvg-logo="https://lo1.in/BR/prme.png" group-title="PREMIERE",PREMIERE 1 HD
 http://zkbvzkj.megahdtv.xyz:80/live/1103581436/4099381829/162468.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="PREMIERE 2 HD" tvg-logo="https://lo1.in/BR/prme2.png" group-title="PREMIERE",PREMIERE 2 HD
 http://zkbvzkj.megahdtv.xyz:80/live/1103581436/4099381829/331246.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="PREMIERE 3 HD" tvg-logo="https://lo1.in/BR/prme3.png" group-title="PREMIERE",PREMIERE 3 HD 
+#EXTINF:-1 tvg-id="" tvg-name="PREMIERE 3 HD" tvg-logo="https://lo1.in/BR/prme3.png" group-title="PREMIERE",PREMIERE 3 HD
 http://zkbvzkj.megahdtv.xyz:80/live/1103581436/4099381829/331247.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="PREMIERE 4 HD" tvg-logo="https://lo1.in/BR/prme.png" group-title="PREMIERE",PREMIERE 4 HD 
+#EXTINF:-1 tvg-id="" tvg-name="PREMIERE 4 HD" tvg-logo="https://lo1.in/BR/prme.png" group-title="PREMIERE",PREMIERE 4 HD
 http://zkbvzkj.megahdtv.xyz:80/live/1103581436/4099381829/162471.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="PREMIERE 5 HD" tvg-logo="https://lo1.in/BR/prme.png" group-title="PREMIERE",PREMIERE 5 HD 
+#EXTINF:-1 tvg-id="" tvg-name="PREMIERE 5 HD" tvg-logo="https://lo1.in/BR/prme.png" group-title="PREMIERE",PREMIERE 5 HD
 http://zkbvzkj.megahdtv.xyz:80/live/1103581436/4099381829/331248.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="PREMIERE 6 HD" tvg-logo="https://lo1.in/BR/prme.png" group-title="PREMIERE",PREMIERE 6 HD
 http://zkbvzkj.megahdtv.xyz:80/live/1103581436/4099381829/331249.m3u8
